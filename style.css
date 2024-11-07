@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body {
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.left-section {
+  margin-left: 20px;
+  display: flex;
+}
+
+.logo-section {
+  margin-left: 20px;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.children-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  width: 120px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 60px;
+}
+
+.children-section:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+.child-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 16px;
+  width: 102px;
+  cursor: pointer;
+}
+
+.child-section:hover {
+  background-color: rgb(4, 170, 109);
+  color: white;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.middle-input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 40px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+#search-button {
+  margin-left: 8px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+#contrast-button {
+  margin-left: 8px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#contrast-button:hover {
+  background-color: rgb(209, 209, 209);
+}
+
+.fa-solid {
+  margin-left: 2px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+#children-icon {
+  margin-right: 5px;
+}
+
+nav {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.nav-div {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.nav-div:hover {
+  background-color: rgb(52, 52, 52);
+}
+
+main {
+  background-color: rgb(217, 238, 225);
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 600px;
+  margin-right: 10px;
+  justify-content: center;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(231, 233, 235);
+  position: relative;
+  margin-top: 100px;
+  box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.try-button {
+  width: 130px;
+  margin-bottom: 35px;
+  margin-left: 30px;
+  font-size: 18px;
+  background-color: rgb(4, 170, 109);
+  border: none;
+  height: 43px;
+  text-align: center;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  width: 200px;
+  color: white;
+  border-radius: 21px;
+  cursor: pointer;
+}
+
+.html-header {
+  margin-top: 16x;
+  margin-left: 30px;
+  font-size: 24px;
+}
+
+span {
+  color: rgb(165, 42, 42);
+}
+
+.section-div {
+  font-size: 13px;
+  background-color: white;
+  width: 420px;
+  height: 300px;
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  padding: 10px;
+  border-left: 4px solid rgb(4, 170, 109);
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.header-title {
+  display: block;
+  font-size: 100px;
+  font-weight: 700;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+
+.description-title {
+  display: block;
+  font-size: 19px;
+  text-align: center;
+}
+
+.html-button {
+  background-color: rgb(4, 170, 109);
+  color: white;
+  border: none;
+  font-size: 18px;
+  height: 43px;
+  width: 200px;
+  border-radius: 21px;
+  cursor: pointer;
+}
+
+.video-button {
+  background-color: rgb(255, 244, 163);
+  border: none;
+  color: black;
+  font-size: 18px;
+  height: 43px;
+  width: 200px;
+  border-radius: 21px;
+  cursor: pointer;
+}
+
+.reference-button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  height: 43px;
+  width: 200px;
+  border-radius: 21px;
+  cursor: pointer;
+  border: none;
+}
+
+.certified-button {
+  background-color: rgb(255, 192, 199);
+  color: black;
+  font-size: 18px;
+  height: 43px;
+  width: 200px;
+  border-radius: 21px;
+  cursor: pointer;
+  border: none;
+}
